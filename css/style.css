@@ -67,6 +67,12 @@ p {
     width: 1170px;
   }
 }
+@media (min-width: 1280px) {
+  .container {
+    width: 1200px;
+  font-size: 200%;
+  }
+}
 
 /* HEADER */
 header {
