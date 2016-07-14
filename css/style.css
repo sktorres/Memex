@@ -25,18 +25,42 @@ p {
   padding-right: 15px;
   position: relative;
 }
-.container: before,
-.container: after {
+.container:before,
+.container:after {
   content: " ";
   display: table;
 }
-.container: after {
+.container:after {
   clear: both;
 }
 .one-half, .one-third, .one-fourth {
-  width: 96%;
-  float: left;
-  position: relative;
+  width:96%;
+  float:left;
+  position:relative;
   min-height: 1px;
   margin: 0 2% 20px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .one-half {
+    width:46%;
+  }
+  .one-third {
+    width: 29.33333%;
+  }
+  .one-fourth {
+    width: 21%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
