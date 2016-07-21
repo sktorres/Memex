@@ -408,6 +408,9 @@ footer .logo{
   text-align: center;
   margin-right: 8px;
 }
+.left-nav .items .active {
+  background: #666666;
+}
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
   position: absolute;
